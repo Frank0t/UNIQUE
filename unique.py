@@ -1,9 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#                               __         __
-#                              /__)_   '_/(  _ _
-#                             / ( (//)/(/__)( (//)
-#                                  /
+#             _                  
+#            (_)                 
+# _   _ _ __  _  __ _ _   _  ___ 
+#| | | | '_ \| |/ _` | | | |/ _ \
+#| |_| | | | | | (_| | |_| |  __/
+# \__,_|_| |_|_|\__, |\__,_|\___|
+#                  | |           
+#                  |_|           
 #
 # 
 #
@@ -143,15 +147,15 @@ def helper():
 def clear():
         sys.stdout.write("\033[F")
         sys.stdout.write("\033[K")
-
+	
 # RapidScan Logo
 def logo():
 	print bcolors.WARNING
         print("""\
-                                         
-                                   """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""
-                         
-                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
+                                      
+                              """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""
+                          
+                     """+bcolors.ENDC+"""( Web Vulnerability Scanner)
                             """)
         print bcolors.ENDC
 
